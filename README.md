@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/logo.svg" alt="Resonance AI Logo" width="120" />
+  <img src="public/logo.svg" alt="Resonance AI Logo" width="120" />
 
   # Resonance AI
   
@@ -34,7 +34,7 @@ The core workspace. Start typing or paste your text, and explore quick actions t
 - 🧘 **Guide a Meditation:** Craft soothing, calming audio for wellness content.
 
 <div align="center">
-  <img src="/dashboard.png" alt="Resonance AI Dashboard" width="800" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+  <img src="public/dashboard.png" alt="Resonance AI Dashboard" width="800" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
   <p><em>The Resonance AI Dashboard interface</em></p>
 </div>
 
@@ -42,7 +42,7 @@ The core workspace. Start typing or paste your text, and explore quick actions t
 A frictionless, secure, and beautiful sign-up experience powered by Clerk.
 
 <div align="center">
-  <img src="/signup.png" alt="Resonance AI Sign Up Page" width="800" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+  <img src="public/signup.png" alt="Resonance AI Sign Up Page" width="800" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
   <p><em>Sleek Sign Up Page & Authentication</em></p>
 </div>
 
