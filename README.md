@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="/logo.svg" alt="Resonance AI Logo" width="120" />
 
-## Getting Started
+  # Resonance AI
+  
+  **Bring your stories to life with advanced AI voices.**
 
-First, run the development server:
+  [![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)](https://prisma.io/)
+  [![Clerk](https://img.shields.io/badge/Auth_by-Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)](https://clerk.com/)
+</div>
 
+---
+
+## 📖 Overview
+
+**Resonance AI** is a state-of-the-art platform that empowers creators to generate expressive, lifelike AI narration. Whether you are building an immersive game world, crafting a soothing meditation guide, or directing a cinematic ad, Resonance provides the perfect voices for every scenario.
+
+---
+
+## ✨ Features & UI
+
+Our gorgeous, interactive user interface makes generating text-to-speech a breeze.
+
+### 🏠 The Dashboard
+The core workspace. Start typing or paste your text, and explore quick actions to kickstart your creative process:
+- 📖 **Narrate a Story:** Bring characters to life with expressive AI narration.
+- 📢 **Record an Ad:** Create professional advertisements with lifelike AI voices.
+- 🎬 **Direct a Movie Scene:** Generate dramatic dialogue for film and video.
+- 🎮 **Voice a Game Character:** Build immersive worlds with dynamic character voices.
+- 🎙️ **Introduce Your Podcast:** Hook your listeners from the very first second.
+- 🧘 **Guide a Meditation:** Craft soothing, calming audio for wellness content.
+
+<div align="center">
+  <img src="/dashboard.png" alt="Resonance AI Dashboard" width="800" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+  <p><em>The Resonance AI Dashboard interface</em></p>
+</div>
+
+### 🔐 Seamless Onboarding
+A frictionless, secure, and beautiful sign-up experience powered by Clerk.
+
+<div align="center">
+  <img src="/signup.png" alt="Resonance AI Sign Up Page" width="800" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+  <p><em>Sleek Sign Up Page & Authentication</em></p>
+</div>
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js 14/15, React 19, Tailwind CSS, shadcn/ui
+- **Backend:** tRPC, Prisma ORM, PostgreSQL
+- **Authentication:** Clerk
+- **Storage:** AWS S3
+- **Audio Processing:** WaveSurfer.js, RecordRTC
+- **Payments & Subscriptions:** Polar.sh
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up Resonance AI locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/pranshulgupta33940/resonance-ai.git
+cd resonance-main
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Environment Variables
+Create a `.env` file in the root directory and add the required environment variables:
+- Database URL (Postgres/SQLite)
+- Clerk API Keys
+- AWS S3 Credentials
+- Polar Token
+
+### 4. Database Setup
+Push the Prisma schema to your database and generate the client:
+```bash
+npx prisma db push
+npx prisma generate
+```
+
+### 5. Run the Development Server
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contributing
 
-## Learn More
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-To learn more about Next.js, take a look at the following resources:
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<div align="center">
+  Built with ❤️ by <a href="https://github.com/pranshulgupta33940">Pranshul Gupta</a>
+</div>
