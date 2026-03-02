@@ -14,31 +14,31 @@
 
 ---
 
-## 📖 Overview
+##  Overview
 
 **Resonance AI** is a state-of-the-art platform that empowers creators to generate expressive, lifelike AI narration. Whether you are building an immersive game world, crafting a soothing meditation guide, or directing a cinematic ad, Resonance provides the perfect voices for every scenario.
 
 ---
 
-## ✨ Features & UI
+##  Features & UI
 
 Our gorgeous, interactive user interface makes generating text-to-speech a breeze.
 
-### 🏠 The Dashboard
+###  The Dashboard
 The core workspace. Start typing or paste your text, and explore quick actions to kickstart your creative process:
-- 📖 **Narrate a Story:** Bring characters to life with expressive AI narration.
-- 📢 **Record an Ad:** Create professional advertisements with lifelike AI voices.
-- 🎬 **Direct a Movie Scene:** Generate dramatic dialogue for film and video.
-- 🎮 **Voice a Game Character:** Build immersive worlds with dynamic character voices.
-- 🎙️ **Introduce Your Podcast:** Hook your listeners from the very first second.
-- 🧘 **Guide a Meditation:** Craft soothing, calming audio for wellness content.
+-  **Narrate a Story:** Bring characters to life with expressive AI narration.
+-  **Record an Ad:** Create professional advertisements with lifelike AI voices.
+-  **Direct a Movie Scene:** Generate dramatic dialogue for film and video.
+-  **Voice a Game Character:** Build immersive worlds with dynamic character voices.
+-  **Introduce Your Podcast:** Hook your listeners from the very first second.
+-  **Guide a Meditation:** Craft soothing, calming audio for wellness content.
 
 <div align="center">
   <img src="public/dashboard.png" alt="Resonance AI Dashboard" width="800" style="border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
   <p><em>The Resonance AI Dashboard interface</em></p>
 </div>
 
-### 🔐 Seamless Onboarding
+###  Seamless Onboarding
 A frictionless, secure, and beautiful sign-up experience powered by Clerk.
 
 <div align="center">
@@ -59,7 +59,7 @@ A frictionless, secure, and beautiful sign-up experience powered by Clerk.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these steps to set up Resonance AI locally:
 
@@ -97,7 +97,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
