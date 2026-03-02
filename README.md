@@ -48,7 +48,60 @@ A frictionless, secure, and beautiful sign-up experience powered by Clerk.
 
 ---
 
-## 🛠️ Tech Stack
+## � Application Workflows
+
+Here is the architectural overview and workflow of Resonance AI:
+
+### 1. Text-to-Speech Generation
+This workflow illustrates how user text is processed into high-quality audio narration involving the Next.js frontend, tRPC backend, and Modal serverless functions.
+
+```mermaid
+graph TD
+    A[User Inputs Text & Selects Voice] --> B[Next.js Client]
+    B --> C[tRPC API Route]
+    C --> D[Modal Serverless Backend]
+    D --> E[Fetch Voice from Cloudflare R2]
+    E --> F[Chatterbox Turbo TTS Engine]
+    F --> G[Stream Audio to Client]
+    G --> H[WaveSurfer.js Playback & Download]
+    
+    classDef client fill:#f9f9f9,stroke:#333,stroke-width:2px;
+    classDef backend fill:#e1f5fe,stroke:#0288d1,stroke-width:2px;
+    classDef ai fill:#fce4ec,stroke:#c2185b,stroke-width:2px;
+    
+    class A,B,G,H client;
+    class C backend;
+    class D,E,F ai;
+```
+
+### 2. User Authentication & Subscription
+The user onboarding pipeline integrated with Clerk authentication and Polar.sh secure payment processing.
+
+```mermaid
+graph TD
+    A[Landing Page] --> B{Account Exists?}
+    B -->|No| C[Clerk Sign Up]
+    B -->|Yes| D[Clerk Sign In]
+    C --> E[Sync info to Prisma & Postgres]
+    D --> F[Dashboard Workspace]
+    E --> F
+    F --> G{Requires Premium Limits?}
+    G -->|Yes| H[Polar.sh Checkout]
+    H -->|Webhook updates DB| F
+    G -->|No| I[Generate Audio Content]
+    
+    classDef auth fill:#f3e8ff,stroke:#6C47FF,stroke-width:2px;
+    classDef payment fill:#e0e7ff,stroke:#3730a3,stroke-width:2px;
+    classDef db fill:#e0f2fe,stroke:#0284c7,stroke-width:2px;
+    
+    class B,C,D auth;
+    class H payment;
+    class E db;
+```
+
+---
+
+## �🛠️ Tech Stack
 
 - **Frontend:** Next.js 14/15, React 19, Tailwind CSS, shadcn/ui
 - **Backend:** tRPC, Prisma ORM, PostgreSQL
