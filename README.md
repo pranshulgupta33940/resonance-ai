@@ -160,8 +160,4 @@ Contributions are what make the open source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
----
-
-<div align="center">
-  Built with ❤️ by <a href="https://github.com/pranshulgupta33940">Pranshul Gupta</a>
-</div>
+-->
